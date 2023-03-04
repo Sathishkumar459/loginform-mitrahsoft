@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <link rel="stylesheet" href="./design.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" class="login">
+            <h1>Photography Estimate Form</h1>
+            <h4> Requested media </h4>
+             
+            <div class="names"><input type="radio" name="work" id="photo" checked><label for="photo" > Photography</label></div>
+            <div class="names"><input type="radio" name="work" id="Video"><label for="Video"> Videography</label></div>
+            
+            <h4>Name</h4>
+             <div class="fullname">
+            <input type="text" id="fname" name="fname" placeholder="First">
+            <input type="text" id="lname" name="lname" placeholder="Last"></div>
+            <div class="contact">
+            <div style=>Email</div>
+            <div style=>Phone</div> </div>
+            <div class="contactbox">
+            <input type="email" id="email" name="email" placeholder="email" required>  
+            <input type="tel" id="mob" name="mob" placeholder="### ### "></div>
+            <h4>Shoot Title</h4>
+            <input type="text" id="shoot" name="shoot">
+            <div class="event">
+                <div>Event Date</div>
+                <div>Event time</div>
+                <div>End Time</div>
+                <input type="date">
+                <input type="time">
+                <input type="time">
+            </div>
+            <h4>Event Location</h4>
+            <div class="address">
+            <input type="text" placeholder="Street Address" id="item1">
+            <input type="text" placeholder="Street Address Line 2" id="item2">
+            <input type="text" placeholder="City" id="item3"><input type="text" placeholder="Region" id="item4" >
+            <input type="text" placeholder="Pincode" id="item5">
+            <input type="text" list="country" id="item6" placeholder="India"><datalist id="country" ><option value="India" >India</option>
+            <option value="UK">UK</option>
+            <option value="Australia">Australia</option>
+            <option value="Europe">Europe</option></datalist>
+            <h4 id="item7">Special Instructions</h4>
+            <textarea id="item8"></textarea>
+            </div>
+            
+            <button id="submit"> Send </button>
+         
+            
+        </form>
+    </div>
+
+    <!-- <div class="flex">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+      </div> -->
+</body>
+</html>
